@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "VPQlIFXsb99onMs3dEcl73vHWbSFouqA8sp/FSh497chSKkf6CIWmsTY4YFg6I5PblfXYFXgfy4qZlMdvPMjww==",
+  "success": true,
+  "projectFilePath": "D:\\c#-projects\\HW_09_03_23_params_ref_in_out\\HW_09_03_23_params_ref_in_out\\HW_09_03_23_params_ref_in_out.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Влад\\.nuget\\packages\\faker.net\\2.0.154\\faker.net.2.0.154.nupkg.sha512",
+    "C:\\Users\\Влад\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Влад\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
