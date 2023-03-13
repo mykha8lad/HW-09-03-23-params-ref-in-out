@@ -112,7 +112,7 @@ namespace HW_09_03_23_params_ref_in_out
                 $"{getAllStudentsInfo()}";
         } // показ данных группы и всех студентов
 
-        public void addStudentInGroup(Group group, Student student) { group.students.Add(student); } // добавление студента в группу
+        public void addStudentInGroup(Student student) { students.Add(student); } // добавление студента в группу
 
         private void ShowStudentMenu()
         {
@@ -320,7 +320,7 @@ namespace HW_09_03_23_params_ref_in_out
                     break;
                 }
             }
-        } // перевод студнта из одной группы в другую
+        } // перевод студента из одной группы в другую
 
         public void deletingAllStudentPassSession()
         {
