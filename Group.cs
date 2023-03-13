@@ -7,21 +7,16 @@ using Faker.Resources;
 
 namespace HW_09_03_23_params_ref_in_out
 {
-    //===============================
-
-    //===============================
-
     public class Group
     {
-        private readonly int studentsInGroup;
+        private readonly int studentsInGroup = 10;
 
         private List<Student> students = new List<Student>();
+        RandomDataForGroup randomData = new RandomDataForGroup();
 
         private string groupName;
         private string groupSpecialization;
         private int courseNumber;
-
-        private RandomDataForGroup randomData;
 
         public Group()
         {
@@ -349,6 +344,5 @@ namespace HW_09_03_23_params_ref_in_out
             Console.WriteLine($"Student {failedStudent.getName()} ({failedStudent.getId()}) remove");
             deleteStudent(failedStudent);
         } // отчисление студента с самой горькой судьбой (
-
     }
 }

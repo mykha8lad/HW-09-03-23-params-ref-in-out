@@ -11,4 +11,8 @@
     <PackageReference Include="Faker.Net" Version="2.0.154" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Pictures\" />
+  </ItemGroup>
+
 </Project>
